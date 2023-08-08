@@ -9,7 +9,17 @@ Ask a question about movies and it will try and convert to an SQL query.
 1. Instal openai library using pip.
 
 ```
-	pip install openai
+pip install openai
 ```
 
-2. Set the environment variable `OPENAI_API_KEY`.
+2. Create a file called `load-env` with the OpenAI key
+
+```
+export OPENAI_API_KEY='key'
+```
+
+3. Set the environment variable
+
+```
+source load-env
+```
