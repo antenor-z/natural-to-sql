@@ -11,14 +11,15 @@ Ask a question about movies and it will try and convert to an SQL query.
 ```
 pip install openai
 ```
+2. Ask me (Antenor) for the key
 
-2. Create a file called `load-env` with the OpenAI key
+3. Create a file called `load-env` with the OpenAI key
 
 ```
 export OPENAI_API_KEY='key'
 ```
 
-3. Set the environment variable
+4. Set the environment variable
 
 ```
 source load-env
